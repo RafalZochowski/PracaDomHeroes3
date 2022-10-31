@@ -18,5 +18,24 @@ public class Game {
         zamekMariana.setName();
         System.out.println(" ");
 
+        Castle zamekTomka = new Castle();
+        zamekTomka.setName();
+        Marian.visitCastle(zamekTomka);
+
+
+        System.out.println("");
+
+        Castle zamekBozeny = new Castle();
+        zamekBozeny.setName();
+        zamekBozeny.ustawArmie();
+
+
+        Marian.visitCastle(zamekBozeny);
+        int[] potArmi = {2,3,4,6,0,0,8};
+        Marian.takeArmy(potArmi);
+        Marian.takeArmy(potArmi);
+
+        System.out.println("");
+
     }
 }
