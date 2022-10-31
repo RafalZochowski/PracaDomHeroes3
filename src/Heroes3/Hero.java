@@ -49,8 +49,7 @@ public class Hero {
     }
 
     public void resetMovementPoints(){
-        System.out.println("Resetuję punkty ruchu!!!!!### q" +
-                "#);
+        System.out.println("Resetuję punkty ruchu!!!!");
         this.movementPoints = this.fullMevementPoints;
     }
 
